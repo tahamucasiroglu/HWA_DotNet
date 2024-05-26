@@ -1,6 +1,16 @@
 * [SeriLog](Projects/SeriLogExample/README.md)
 * [MemoryCache](Projects/MemoryCacheExample/README.md)
 * [Middleware](Projects/MiddleWareExample/README.md)
+* [CQRS](Projects/CQRSExample/README.md)
+
+<details>
+  <summary>Shortcuts</summary>
+  
+* `ctrl+m+a` kod sayfasını daralt
+* `ctrl+k+e` kodları düzenle
+
+</details>
+
 
 
 <details>
@@ -12,6 +22,7 @@ grpc not olsun bir inceleyin ilerde yaparız dendi<br>
 
 "backend code clean example" reposuna kodları düzenleyerek branch at. Öncesi ve sonrası için bencmark yapıp görebilirsin.<br>
 `buradaki servicelerde bulunan ornekelre gore, ayri branchler acip gerekli gordugunuz fixleri ve kod hatalarini duzelttikten sonra yorum satiri ile neden oyle yaptiginizi da acikladiktan sonra`
+<hr>
 
 kendime not;<br>
 1-) SignalR -> anlık güvenlik 2. plan iletişim<br>
