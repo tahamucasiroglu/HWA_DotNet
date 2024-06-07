@@ -2,6 +2,7 @@
 * [MemoryCache](Projects/MemoryCacheExample/README.md)
 * [Middleware](Projects/MiddleWareExample/README.md)
 * [CQRS](Projects/CQRSExample/README.md)
+* [Redis](Projects/RedisExample/README.md)
 
 <details>
   <summary>Shortcuts</summary>
