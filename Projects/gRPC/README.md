@@ -117,6 +117,110 @@ temel grpc yapısı taammalandı
 
 # Özel Protolar yapma
 
+### Unary özel örneği
+
+![alt text](image-10.png)
+
+`message.proto` dosyası. 
+
+<br>
+3. satırda özel namespace ismi verdik.
+<br>
+5. satırda paket ismini ayarladık.
+<br>
+8. satırda servis adını koyduk
+<br>
+14. satırda istek için özel method ayarladık. Burada birinci değişken isim ikinci değişken mesajın kendisi dedik.
+<br>
+20. satırda cevap methodu ayarladık.
+<br>
+sonra buun projeye ekledik.
+<br> 
+
+![alt text](image-9.png)
+
+<br>
+
+
+![alt text](image-8.png)
+
+şimdi servisi ayarladık. 
+
+<br>
+
+![alt text](image-11.png)
+
+burayı serverda düzeltmeyi unutmka. client içinde özel proto eklendi ve kodlar ayarlandı
+
+![alt text](image-12.png)
+sonuç olarak bu şekilde başardık. 
+
+<br>
+
+### server stream özel türü
+
+
+burada da önce 
+
+1- server için proto oluştur
+2- server için servis oluştur
+3- proje dosyasına tanımlama yap
+4- client için proto ekle
+5- proje dosyasınam ekle
+6- gerekli kodu program.cs içine yaz
+
+![alt text](image-13.png)
+
+program cs kodu client içinde program cs de var
+
+<br>
+
+proto dosyalarındaki senkronizasyonu unutmayın gene 1 saat hata bulmaya gitti
+
+<br>
+
+![alt text](image-14.png)
+
+
+tammaır.
+
+
+<br>
+
+### ClientStream özel türü
+
+üstekinini tam tersi kodlar var `MessageClientStream` tabanlı dosyalarda <h1 style="font-size: 100px;">FAKAT VİSUAL STUDİO PROTO DOSYASI AÇARKEN SINIF OLARAK AÇIP SONRA İSİM VE İÇERİK DEĞİŞTİREREK PROTO YAPMAYIN ÇÜNKÜ 1 SAATTİR NİYE PROTO DOSYASINDA GET VE SET İSTİYOR DİYE KAFAYI YİYECEKTİM ARKAPLANDA ONU HALA .CS OALRAK DERLEMEYE ÇALIŞIYOR MUHTEMELEN</h1>
+BİLGİLENDİRME BNİTMİŞLTİR
+
+<br>
+
+![alt text](image-15.png)
+
+<br>
+
+### Bi-Directional Stream
+
+![alt text](image-16.png)
+
+şeklinde karşılıklı asenkron iletişimdir. sistem biraz karşık aslında sürekli döngüler var ama ayarlanır ilerde. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

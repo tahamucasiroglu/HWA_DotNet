@@ -11,6 +11,10 @@
   
   <ItemGroup>
   <Protobuf Include="greet.proto" GrpcServices="Client"/>
+    <Protobuf Include="message.proto" GrpcServices="Client"/>
+    <Protobuf Include="messageStream.proto" GrpcServices="Client"/>
+    <Protobuf Include="MessageClientStream.proto" GrpcServices="Client"/>
+    <Protobuf Include="messageStreamStream.proto" GrpcServices="Client"/>
     <PackageReference Include="Google.Protobuf" Version="3.27.2" />
     <PackageReference Include="Grpc.Net.Client" Version="2.63.0" />
     <PackageReference Include="Grpc.Tools" Version="2.65.0">

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpcStreamStream";
+
+package streamStream;
+
+service MessageStreamStream {
+  rpc SendMessage (stream MessageStreamStreamRequest) returns (stream MessageStreamStreamResponse);
+}
+
+message MessageStreamStreamRequest {
+  string name = 1;
+  string message = 2;
+}
+
+message MessageStreamStreamResponse{
+  string message = 1;
+}
